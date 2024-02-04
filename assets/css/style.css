@@ -31,7 +31,6 @@ body {
     display: flex center;
     justify-content: space-between;
     text-align: center;
-    font-size: 8em;
-    padding-top: 0;
+    font-size: 20px;
 }
 
