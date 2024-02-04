@@ -7,24 +7,31 @@
 }
 
 body {
-    background-color: #ffba8b;
+    background-color: #ff6600;
     color: #ffffff;
 }
 /*-------------------- Intro */
 .sub-heading {
     text-align: center;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     color: #003884;
 }
 
 .skyline {
-
+    display: flex center;
+    justify-content: space-between;
+    text-align: center;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 10px;
 }
 
-.intro {
-    padding-top: 20px;
+.icons {
+    display: flex center;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 8em;
+    padding-top: 0;
 }
 
-#subway {
-    padding-left: 10px;
-}
