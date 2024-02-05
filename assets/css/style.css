@@ -11,6 +11,23 @@ body {
     color: #ffffff;
 }
 
+/*-------------------- Hero Image */
+.hero-container {
+    height: 80vh;
+
+    background: url('/assets/images/liberty.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+
 /*-------------------- Navbar */
 .navbar {
     background-color: #003884;
@@ -40,10 +57,6 @@ body {
     padding-bottom: 5px;
     color: #003884;
     letter-spacing: 1px;
-}
-
-.skyline {
-    
 }
 
 
