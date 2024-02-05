@@ -21,17 +21,16 @@ body {
     -o-background-size: cover;
     background-size: cover;
 
-    display: flex;
-    align-items: center;
+    display:flex;
+    flex-direction: column;
     justify-content: center;
-    text-align: center;
-    font-weight: bold;
+    align-items: center;
 }
+
 
 /*-------------------- Navbar */
 .navbar {
     background-color: #003884;
-    margin-top: 0;
     padding: 4px; 
 }
 
@@ -48,6 +47,7 @@ body {
 
 .navbar-nav a:hover {
     background-color: #ff6600;
+    border: greenyellow 2px solid;
 }
 
 /*-------------------- Intro */
@@ -71,7 +71,10 @@ body {
 /*-------------------- Footer */
 .footer-container {
     background-color: #003884;
+    display: flex;
     text-align: center;
+    min-height: 50px;
+    margin: auto 0;
 }
 
 
