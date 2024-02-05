@@ -42,12 +42,12 @@ body {
     font-weight: bold;
 }
 
-.navbar-brand a:hover {
-    background-color: yellow;
-}
-
 .navbar-nav {
     font-size: 20px;
+}
+
+.navbar-nav a:hover {
+    background-color: #ff6600;
 }
 
 /*-------------------- Intro */
@@ -68,22 +68,10 @@ body {
 }
 
 
-/*-------------------- Social Media Links */
-.social-media-links {
+/*-------------------- Footer */
+.footer-container {
     background-color: #003884;
-    color: #ffffff;
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    margin-left: 0;
-    margin-bottom: 0;
-    height: 50px;
-    padding-top: 20px;
-    padding-right: 20px;
-    position: fixed;
-    width: 100%;
+    text-align: center;
 }
 
-ul {
-    list-style-type: none;
-}
+
