@@ -10,22 +10,42 @@ body {
     background-color: #ff6600;
     color: #ffffff;
 }
+
+/*-------------------- Navbar */
+.navbar {
+    background-color: #003884;
+    margin-top: 0;
+    padding: 4px; 
+}
+
+.navbar-brand {
+    padding-left: 10px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.navbar-brand a:hover {
+    background-color: yellow;
+}
+
+.navbar-nav {
+    font-size: 20px;
+}
+
 /*-------------------- Intro */
 .sub-heading {
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
     color: #003884;
+    letter-spacing: 1px;
 }
 
 .skyline {
-    display: flex center;
-    justify-content: space-between;
-    text-align: center;
-    padding-right: 50px;
-    padding-left: 50px;
-    padding-bottom: 10px;
+    
 }
+
 
 .icons {
     display: flex center;
@@ -34,3 +54,23 @@ body {
     font-size: 20px;
 }
 
+
+/*-------------------- Social Media Links */
+.social-media-links {
+    background-color: #003884;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-left: 0;
+    margin-bottom: 0;
+    height: 50px;
+    padding-top: 20px;
+    padding-right: 20px;
+    position: fixed;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}

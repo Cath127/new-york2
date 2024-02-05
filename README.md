@@ -47,6 +47,7 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
    * ### Using an easy to read, dyslexia friendly font.
    * ### Using a relevant yet contrasting colour contrast.
    * ### Providing clear navigation. 
+   * ### Subway map website provides a map of accessible stations and a large type map.
 
 ## Technologies Used
 
