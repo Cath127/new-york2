@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -13,19 +14,24 @@ body {
 
 /*-------------------- Hero Image */
 .hero-container {
-    height: 80vh;
+    height: 85vh;
+    width: 100vw;
 
+    /* background: url('/assets/images/liberty.jpg') no-repeat center center fixed; */
     background: url('/assets/images/liberty.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 
+
     /* display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; */
 }
+
+/* animation: hero-fade-in 5s; */
 
 #hero-text {
     color: #ff6600;
@@ -34,8 +40,13 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 150%;
   /* color: white; */
 }
+
+/* #hero-text h2 {
+    font-size: 150%;
+} */
 
 /*-------------------- Navbar */
 .navbar {
@@ -70,6 +81,23 @@ body {
     font-size: 3rem;
 }
 
+.intro-container {
+    margin: 100 auto;
+    width: 75%;
+
+}
+
+#view {
+    max-width: 500px;
+    float: left;
+    border-radius: 10px;
+    border: 3px solid white;
+    margin-right: 30px;
+}
+
+.intro-text {
+    font-size: 15px;
+}
 
 .icons {
     display: flex center;
