@@ -29,7 +29,6 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
      ![nyc-flag-colours](https://github.com/Cath127/new-york/assets/153606011/a15d58f7-6aa0-4fc2-b48d-75771e250e3e)
 
 * ### Typography 
-     Lexend Deca is the main font used for the whole website with Sans Serif as the fallback font if Lexend isn't working properly.  Lexend is a dyslexia friendly font which is also beneficial for short-sighted people.
 
 * ### Imagery
 
